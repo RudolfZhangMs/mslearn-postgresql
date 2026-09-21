@@ -241,7 +241,7 @@ In this section, you connect to the PostgreSQL server using the PostgreSQL exten
 
     1. If you highlight just the **SELECT current_database()** statement and run it, you notice that the database is currently set to `postgres`. You need to change it to `zoodb`.
 
-    1. Select the ellipsis in the menu bar with the *run* icon and select **Change PostgreSQL Database**. Select `zoodb` from the list of databases.
+    1. Select **Change PostgreSQL Database**. Select `zoodb` from the list of databases.
 
         > &#128221; You can also change the database on the query pane. You can note the server name and database name under the query tab itself. Selecting the database name will show a list of databases. Select the `zoodb` database from the list.
 
@@ -257,7 +257,7 @@ In this section, you create the `repopulate_zoo()` stored procedure. This proced
 
 1. In the Visual Studio Code window, select **File**, **Open File**, and then navigate to the lab scripts. Select **../Allfiles/Labs/03/Lab3_RepopulateZoo.sql** and then select **Open**. If necessary, reconnect to the server by selecting the **PGSQL Disconnected** text and then selecting your PostgreSQL server connection from the list in the command palette. If it asks for a password, enter the password you previously generated.
 
-1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select the ellipsis in the menu bar with the *run* icon and select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
+1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
 
 1. Highlight the section under **Create stored procedure** from **DROP PROCEDURE** to **END $$.** Run the highlighted text.
 
@@ -269,7 +269,7 @@ In this section, you create the `new_exhibit()` stored procedure. This procedure
 
 1. In Visual Studio Code, select **File**, **Open File**, and then navigate to the lab scripts. Select **../Allfiles/Labs/05/Lab5_StoredProcedure.sql** and then select **Open**. If necessary, reconnect to the server by selecting the **PGSQL Disconnected** text and then selecting your PostgreSQL server connection from the list in the command palette. If it asks for a password, enter the password you previously generated.
 
-1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select the ellipsis in the menu bar with the *run* icon and select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
+1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
 
 1. Highlight the **CALL repopulate_zoo()** statement and run it to start with clean data.
 
@@ -291,7 +291,7 @@ Time to create a table-valued function. A table-valued function is a user-define
 
 1. In Visual Studio Code, select **File**, **Open File**, and then navigate to the lab scripts. Select **../Allfiles/Labs/05/Lab5_Table_Function.sql** and then select **Open**. If necessary, reconnect to the server by selecting the **PGSQL Disconnected** text and then selecting your PostgreSQL server connection from the list in the command palette. If it asks for a password, enter the password you previously generated.
 
-1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select the ellipsis in the menu bar with the *run* icon and select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
+1. Run the **SELECT current_database()** statement to check your current database. Again, the database is most likely set to `postgres`. If so, you need to change it to `zoodb`. Select **Change PostgreSQL Database**. Select `zoodb` from the list of databases. Test the connection again by running the **SELECT current_database()** statement.
 
 1. Highlight and run the **CALL repopulate_zoo()** stored procedure to start with clean data.
 
